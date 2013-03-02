@@ -22,4 +22,7 @@ public abstract class AbstractBuild{
 	protected abstract void integrationTest();
 	protected abstract void deploy();
 
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+	}
 }
